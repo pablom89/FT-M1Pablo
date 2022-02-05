@@ -85,7 +85,7 @@ describe('Una linked list', function() {
 
   it('deberia poder tomar strings y funciones ambos como search inputs', function() {
     linkedList.add('one');
-    linkedList.add('two');
+    linkedList.add('two');  
     expect(linkedList.search(function(nodeValue) {
       return nodeValue === 'two';
     })).toBe('two');
